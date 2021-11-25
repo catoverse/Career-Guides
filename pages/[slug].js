@@ -1,11 +1,12 @@
 import { NotionRenderer } from 'react-notion';
 import 'react-notion/src/styles.css';
+import styles from '../styles/guide.module.css';
 
 import getPageBlocks from '../api/get-page-blocks';
 import getPagesTable from '../api/get-pages-table';
 
 const Post = ({ post, blocks }) => (
-  <div style={{ maxWidth: 768 }}>
+  <div className={styles.container}>
     <h1>{post.title}</h1>
     <NotionRenderer blockMap={blocks} />
   </div>

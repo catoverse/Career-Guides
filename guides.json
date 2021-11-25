@@ -1,0 +1,127 @@
+[
+  {
+    "id": "1",
+    "icon": "💡",
+    "career": "AR/VR Developer"
+  },
+  {
+    "id": "2",
+    "icon": "🪐",
+    "career": "Astronaut"
+  },
+  {
+    "id": "3",
+    "icon": "🌌",
+    "career": "Astronomer/Astrophysicist"
+  },
+  {
+    "id": "4",
+    "icon": "🏢",
+    "career": "Business Analyst"
+  },
+  {
+    "id": "5",
+    "icon": "🤑",
+    "career": "Entrepreneur"
+  },
+  {
+    "id": "6",
+    "icon": "🏔",
+    "career": "Environmental Science"
+  },
+  {
+    "id": "7",
+    "icon": "🪢",
+    "career": "Fashion Design"
+  },
+  {
+    "id": "8",
+    "icon": "💸",
+    "career": "Finance Analyst"
+  },
+  {
+    "id": "9",
+    "icon": "📈",
+    "career": "Growth Marketing"
+  },
+  {
+    "id": "10",
+    "icon": "👨🏼‍🤝‍👨🏻",
+    "career": "Network Marketing"
+  },
+  {
+    "id": "11",
+    "icon": "🔒",
+    "career": "No Code Development"
+  },
+  {
+    "id": "12",
+    "icon": "🍁",
+    "career": "Psychologist"
+  },
+  {
+    "id": "13",
+    "icon": "🤳🏻",
+    "career": "Social Media Influencer"
+  },
+  {
+    "id": "14",
+    "icon": "🖥",
+    "career": "UX/UI Designer"
+  },
+  {
+    "id": "15",
+    "icon": "🎨",
+    "career": "Graphic Designer"
+  },
+  {
+    "id": "16",
+    "icon": "💻",
+    "career": "Software Engineer/Develper"
+  },
+  {
+    "id": "17",
+    "icon": "👨🏻‍💻",
+    "career": "Web Developer"
+  },
+  {
+    "id": "18",
+    "icon": "🔐",
+    "career": "Cyber Security"
+  },
+  {
+    "id": "19",
+    "icon": "🙍🏼‍♀️",
+    "career": "Management Consultant"
+  },
+  {
+    "id": "20",
+    "icon": "😇",
+    "career": "Social Worker"
+  },
+  {
+    "id": "21",
+    "icon": "⚗️",
+    "career": "Crypto"
+  },
+  {
+    "id": "22",
+    "icon": "🎊",
+    "career": "AI/ML"
+  },
+  {
+    "id": "23",
+    "icon": "🕙",
+    "career": "Human Resources"
+  },
+  {
+    "id": "24",
+    "icon": "💽",
+    "career": "Data Science"
+  },
+  {
+    "id": "25",
+    "icon": "📲",
+    "career": "Product Management"
+  }
+]

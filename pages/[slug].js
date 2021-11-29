@@ -33,7 +33,8 @@ export async function getStaticProps({ params: { slug } }) {
 export async function getStaticPaths() {
   const posts = await getPagesTable();
   return {
-    paths: posts.map((row) => `/${row.slug}`),
+    // paths: posts.map((row) => `/${row.slug}`),
+    paths: posts.filter((post) => !!post?.slug).map((row) => `/${row.slug}`),
     fallback: true,
   };
 }

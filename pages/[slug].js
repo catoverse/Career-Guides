@@ -7,7 +7,7 @@ import getPagesTable from '../api/get-pages-table';
 
 const Post = ({ post, blocks }) => (
   <div className={styles.container}>
-    <h1>{post.title}</h1>
+    <h1>{post?.Name}</h1>
     <NotionRenderer blockMap={blocks} />
   </div>
 );
@@ -32,10 +32,16 @@ export async function getStaticProps({ params: { slug } }) {
 
 export async function getStaticPaths() {
   const posts = await getPagesTable();
+
   return {
-    // paths: posts.map((row) => `/${row.slug}`),
-    paths: posts.filter((post) => !!post?.slug).map((row) => `/${row.slug}`),
-    fallback: true,
+    paths: posts
+      .filter((post) => !!post?.slug)
+      .map((post) => ({
+        params: {
+          slug: post.slug,
+        },
+      })),
+    fallback: false,
   };
 }
 
